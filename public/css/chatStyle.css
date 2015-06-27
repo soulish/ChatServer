@@ -1,0 +1,83 @@
+div.chatAreaClass{
+    padding: 10px;
+    border:4px solid black;
+}
+div.chatBox{
+    border:1px solid black;
+    height:300px;
+    width: 300px;
+    float: left;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin: 10px;
+}
+p.chatBoxNameBar{
+    font-size: 125%;
+    font-weight: bold;
+    float: left;
+    width: 90%;
+}
+button.chatBoxButton{
+    width: 10%;
+    float: left;
+    background-color: white;
+    border: none;
+}
+p.chatTextField{
+    border:1px solid black;
+    height: 200px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+textarea.chatFormInput{
+    width:95%;
+    overflow-y: auto;
+    resize: none;
+}
+div.content3{
+    width: 1000px;
+    margin: 0 auto;
+}
+#mainArea{
+    width: 1000px;
+    margin: 0 auto;
+}
+#chatTitle {
+    color: blue;
+    font-size: 300%;
+    border:1px solid black;
+    padding:10px;
+    width: 100%;
+    margin: 0 auto;
+}
+#mainTitle {
+    font-size: 300%;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#chatArea {
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+#searchBarArea {
+    padding: 10px;
+    width: 95%;
+    height: 50px;
+    border:3px solid black;
+    margin: 0 auto;
+}
+#searchBar {
+    float:left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#selectBox{
+    float: left;
+}
+#logoutButton{
+    margin-left: 25px;
+    float: left
+}
